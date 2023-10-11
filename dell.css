@@ -46,12 +46,17 @@ align-items: center;
 .div6{
       display: flex;
       gap:30px;
+      cursor: pointer;
+            
       
+}
+.div6 :hover
+{
+      opacity: .5;
 }
 .div7
 {
       width:33%;
-      height: 300px;
       background-image: url("image/cybersecurity-month-week1-703x423.avif");
       background-repeat: no-repeat;
       
@@ -182,6 +187,11 @@ margin-left: 100px;
 margin-top: 40px;
 padding: 2% 10px;
 border-radius: 8px;
+}
+.input1 :focus
+{
+      border-color: rgb(12, 212, 238);
+      border: 2px solid;
 }
 .button1
 {
@@ -465,7 +475,9 @@ margin-bottom: 10px;
       cursor: pointer;
       border-radius: 3px;
 
+
 }
+.button12
 .button13
 {
       background: transparent;
@@ -492,16 +504,29 @@ margin-bottom: 10px;
       font-weight: 10;
 }
 
-/* .p11{
-      
+.p11
+{
+margin-top: 70%;
+text-align: center; 
+font-size: 25px; 
+color: white; 
+background-color: black;   
 }
 
-.p12{
-
+ .p12{
+margin-top: 70%;
+text-align: center; 
+font-size: 25px; 
+color: white; 
+background-color: black; 
 }
 .p13{
-      
-} */
+      margin-top: 70%;
+text-align: center; 
+font-size: 25px; 
+color: white; 
+background-color: black; 
+}  
 .img21
 {
       width: 650px;
@@ -575,7 +600,7 @@ margin-bottom: 10px;
 
 
 
-      
+
       
 }
 .button14
