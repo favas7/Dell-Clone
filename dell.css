@@ -47,12 +47,13 @@ align-items: center;
       display: flex;
       gap:30px;
       cursor: pointer;
-            
+      margin-left: 60px; 
       
 }
 .div6 :hover
 {
       opacity: .5;
+      
 }
 .div7
 {
@@ -477,7 +478,7 @@ margin-bottom: 10px;
 
 
 }
-.button12
+
 .button13
 {
       background: transparent;
